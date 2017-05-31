@@ -1,0 +1,27 @@
+{
+  "name": "check_node",
+  "version": "1.0.0",
+  "description": "check node version, either be in a /usr/bin/ or installed with nvm",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/spec.js"
+  },
+  "author": "lungh",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "devDependencies": {
+    "mocha": "^3.4.2",
+    "should": "^11.2.1"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/lunhg/check_node.git"
+  },
+  "keywords": [
+    "spawn",
+    "which"
+  ]
+}

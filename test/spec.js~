@@ -1,0 +1,11 @@
+let which = require("../index");
+
+describe("node check version", () => {
+
+    it("should get node version from which command", (done) => {
+	which((data) => {
+	    let reg = new RegExp(".*/bin/node/") 
+	    data.should.be.match reg
+	}).then(done)
+    })
+})
