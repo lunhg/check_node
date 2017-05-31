@@ -4,7 +4,7 @@
   "description": "check node version, either be in a /usr/bin/ or installed with nvm",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test/spec.js"
+    "test": "mocha -R markdown test/spec.js > test/TESTS.md"
   },
   "author": "lungh",
   "license": "SEE LICENSE IN LICENSE.md",
